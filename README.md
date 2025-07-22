@@ -1,35 +1,17 @@
 # Airline Customer Satisfaction Project 
 
 ## Repository Outline
-1. `.streamlit/`
-   - Configuration folder for Streamlit (usually contains `config.toml`).
-2. `deployment/`
-   - 2.1 `app.py` – Main Streamlit app controller for navigation and launch.
-   - 2.2 `eda.py` – Handles Exploratory Data Analysis view.
-   - 2.3 `mainapp.py` – Displays project background and model explanation.
-   - 2.4 `prediction.py` – Manages input form and shows prediction result.
-   - 2.5 `sidebar.py` – Sidebar navigation and layout.
-   - 2.6 `model_xgb.pkl` – Serialized XGBoost model used in prediction.
-   - 2.7 `model.joblib` – Alternative serialized model version.
-   - 2.8 `train.csv` – Cleaned training data used for model building.
-   - 2.9 `plots.py` – Plotting function based on matplotlib.
-3. `venv/`
-   - Virtual environment folder (excluded from version control).
-4. `.gitignore` – Specifies files and folders to be ignored by Git.
-5. `archive.ipynb` – Alternate hyperparameter boosting for SVM.
-6. `description.md` – Main documentation for the repository.
-7. `mlanalyzer.py` – Script for model training, tuning, or analysis.
-8. `model_svm.pkl` – Serialized SVM model for backup.
-9. `model_xgb.pkl` – XGBoost model in root.
-10. `P1G5_Faishal-Kemal.ipynb` – Initial exploratory and modeling notebook.
-11. `P1G6_Faishal-Kemal.ipynb` – Continued or extended version of analysis.
-12. `P1M2_Faishal-Kemal_conceptual.txt` – Conceptual plan for the project.
-13. `P1M2_Faishal-Kemal_Inference.ipynb` – Notebook for final inference workflow.
-14. `P1M2_Faishal-Kemal.ipynb` – Final version of notebook with all steps.
-15. `requirements.txt` – Required packages to run the project.
-16. `test.csv` – Dataset used for testing/evaluation.
-17. `train.csv` – Original training data.
-18. `url.txt` – Contains external links, for data source and deployment.
+1. `.gitignore` – Specifies files and folders to be ignored by Git.
+2. `archive.ipynb` – Alternate hyperparameter boosting for SVM.
+3. `mlanalyzer.py` – Script for model training, tuning, or analysis.
+4. `model_svm.pkl` – Serialized SVM model for backup.
+5. `model_xgb.pkl` – XGBoost model in root.
+6. `Main.ipynb` – Main exploratory and modeling notebook.
+7. `Inference.ipynb` – Notebook for inference workflow.
+8. `requirements.txt` – Required packages to run the project.
+9. `test.csv` – Dataset used for testing/evaluation.
+10. `train.csv` – Original training data.
+11. `url.txt` – Contains external links, for data source and deployment.
 
 ## Problem Background
 Airline market is a competitive market. In 2025, the global airline industry is expected to generate a total revenue of $979 billion, according to IATA.
