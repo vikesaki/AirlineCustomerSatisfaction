@@ -1,0 +1,6 @@
+original dataset - https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction
+streamlit deployment - https://airlinecustomersatisfactionproject.streamlit.app/
+huggingface deployment - https://huggingface.co/spaces/vikesaki/AirlineSatisfactionProject
+
+Note, huggingface is buggy, as the paging system didnt actually clear the previous page, and the screen width setting make the page 'jittery'
+for better experience, i recommend to use the streamlit ones.
